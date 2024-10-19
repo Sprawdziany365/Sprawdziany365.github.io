@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Spotkanie z fizyką 8",
+    "price": 8,
+    "image":"/media/fizyka8.jpg",
+    "tier": "Standard",
+    "desc":"Zawiera wybraną kartkówkę lub sprawdzian",
+    "wydawnictwo": "Nowa era",
+    "przedmiot": "fizyka",
+    "klasa": "8"
+  },
+  {
+    "id": 2,
+    "name": "Spotkanie z fizyką 8",
+    "price": 12,
+    "image":"/media/fizyka8.jpg",
+    "tier": "Max",
+    "desc":"Zawiera wszystkie sprawdziany i kartkówki z jednego działu",
+    "wydawnictwo": "Nowa era",
+    "przedmiot": "fizyka",
+    "klasa": "8"
+  },
+  {
+    "id": 3,
+    "name": "Spotkanie z fizyką 8",
+    "price": 40,
+    "image":"/media/fizyka8.jpg",
+    "tier": "Premium",
+    "desc":"Zawiera wszystkie sprawdziany i kartkówki z książki",
+    "wydawnictwo": "Nowa era",
+    "przedmiot": "fizyka",
+    "klasa": "8"
+  }
+]

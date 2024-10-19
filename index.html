@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="media/favicon.png">
+    <title>📚 Sprawdziany365 📚 </title>
+</head>
+<body class="">
+    <header>
+        <nav>
+            <input type="checkbox" class="checkbox">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+
+            <div class="logo">
+                <a href="" class="logo">
+                    <img src="media/logo.png" alt="SPRAWDZIANY_LOGO">
+                    <p>Sprawdziany365</p>
+                </a>
+            </div>
+            
+            <div class="menu">
+                <a class="spis">spis książek</a>
+                <a class="infoOp">informacje</a>
+                <a class="contactop">kontakt</a>
+                <div class="icon-cart">
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                    </svg>
+                    <span>0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="filtry">
+            <form>
+                <div class="">
+                    <label for="">Przedmiot</label>
+                    <select name="przedmiot">
+                        <option value="">-----</option>
+                        <option value="mat">Matematyka</option>
+                        <option value="j_ang">Język Angielski</option>
+                        <option value="j_niem">Język Niemiecki</option>
+                        <option value="fizyka">Fizyka</option>
+                        <option value="chem">Chemia</option>
+                        <option value="geo">Geografia</option>
+                        <option value="biol">Biologia</option>
+                        <option value="his">Historia</option>
+                        <option value="wos">WoS</option>
+                        <option value="edb">EDB</option>
+                        <option value="przyr">Przyroda</option>
+                    </select>
+                </div>
+                <div class="">
+                    <label for="">Wydawnictwo</label>
+                    <select name="wydawnictwo">
+                        <option value="">-----</option>
+                        <option value="Nowa era">Nowa era</option>
+                        <option value="gwo">GWO</option>
+                        <option value="wsip">WSiP</option>
+                        <option value="ang">Inne - wydawnictwa języka angielskiego</option>
+                        <option value="niem">Inne - wydawnictwa języka niemieckiego</option>
+                    </select> 
+                </div>
+                <div class="">
+                    <label for="">Klasa</label>
+                    <select name="klasa">
+                        <option value="">-----</option>
+                        <option value="8">8</option>
+                        <option value="7">7</option>
+                        <option value="6">6</option>
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <div class="">
+                    <label for="name">Wyszukaj po nazwie:</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="submit" style="grid-column: 2/4;">
+                    <button>Zastosuj i szukaj</button>
+                </div>
+            </form>
+        </div>
+        <div class="productList">
+            <!--
+
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            
+            -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="partners">
+            
+            <a href="https://tinyurl.com/vinted365"><img src="media/vinted.png" alt=""></a>
+                <a href="" style="display: none;"><img src="media/allegro.png" alt=""></a>
+                <a href="https://tinyurl.com/sprawdziany365dsc"><img src="media/discord.png" alt=""></a>
+            <!--<img src="media/tipply.png" alt="tipply">-->
+            
+        </div>
+        <div class="footlogo"></div>
+        <p>Sprawdziany365  |  ©2024 Sprawdziany365  |  sprawdziany.github.io</p>
+    </footer>
+
+
+    <div class="cartTab">
+        <h1>Twój koszyk</h1>
+        <div class="listCart">
+            
+        </div>
+        <div class="btn">
+            <button class="close">Kontynuuj zakupy</button>
+            <button class="checkOut">Kup teraz</button>
+        </div>
+    </div>
+
+
+    <div class="booklist">
+        <h2>Oto spis książek, do których posiadamy sprawdziany</h2>
+        <p style="font-size: 15px;">Nasza strona pozwala uzyskać dostęp sprawdziany jedynie do ksiażek wypisanych poniżej. Posiadamy dostęp do sprawdzianów ze wszystkich działów zawartych w książkach wypisanych poniżej. W przypadku chęci zakupu pakietu Max prosimy dopytać o dostępność wybranej kartkówki. Nie mamy dostępu do testów pochodzących z książek wydawnictwa WSiP</p>
+        <hr>
+        <ul>
+            <li>
+                Klasa 8
+                <ul>
+                    <li>
+                        Nowa era
+                        <ul>
+                            <li>Matematyka - Matematyka z Kluczem 8</li>
+                            <li>Fizyka - Spotkanie z Fizyką 8</li>
+                            <li>Chemia - Chemia Nowej Ery 8</li>
+                            <li>Geografia - Planeta Nowa 8</li>
+                            <li>Biologia - Puls życia 8</li>
+                            <li>Historia - Wczoraj i Dziś 8</li>
+                            <li>WoS - Dziś i Jutro 8</li>
+                            <li>EdB - Żyję i działam bezpiecznie 8</li>
+                        </ul>
+                    </li>
+                    <li>
+                        GWO
+                        <ul>
+                            <li>Matematyka - Matematyka z plusem 8</li>
+                            <li>Historia - Podróże w czasie 8</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Wydawnictwa językowe - j.ang 
+                        <ul>
+                            <li>All Clear 8</li>
+                            <li>Repetytorium 8-klasisty - Oxford</li>
+                            <li>Teen Explorer 8</li>
+                            <li>Repetytorium 8-klasisty - Macmillan</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Wydawnictwa językowe - j.niem 
+                        <ul>
+                            <li>Das ist Deutsch Kompakt 8</li>
+                            <li>Deutschtour fit 8</li>
+                            <li>Kompass Team 2</li>
+                            <li>Meine Deutschtour 8</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <img src="media/x_mark.png" alt="delete" class="spisx closebut"/>
+    </div>
+
+
+    <div class="summary">
+        <h2>Twój koszyk jest gotowy!</h2>
+        <p>Aby sfinalizować transakcję postępuj zgodnie z następującymi krokami:</p>
+        <ol>
+            <li>
+                <h3>Skontaktuj się ze sprzedającym</h3>
+                <p>Skontaktuj się ze sprzedającym za pomocą najbardziej odpowiadającej drogi kontaktu - 
+                    <a href="">vinted</a>, <a href="">allegro</a> lub <a href="">discord</a>. W prywatnym czacie ze sprzdającym zrealizujesz zamówienie</p>
+            </li>
+            <li>
+                <h3>Omów szczegóły zamówienia</h3>
+                <p>Wyślij <b>zrzut ekranu</b> stworzonego koszyka lub <b>napisz</b> jakimi książkami jesteś zainteresowany/-a. W razie niejasności lub wątpliwości, <b>pytaj - odpowiemy na wszystkie pytania</b></p>
+            </li>
+            <li>
+                <h3>Wybierz opcję płatności</h3>
+                <p>Preferujemy płatności za pomocą <b>BLIKa</b> (przelew na numer telefonu) lub <b>allegro</b> - poprzez wystawienie indywidualnej oferty</p>
+            </li>
+            <li>
+                <h3>Pobierz zamówione sprawdziany</h3>
+                <p>Po dokonaniu płatności prosimy o podanie adresu <b>e-mail</b>, na który wyślemy zamówione sprawdziany</p>
+            </li>
+        </ol>
+        <div class="kontakt">
+            <hr>
+            <h2>Kontakt</h2>
+            <div>
+                <a href="https://tinyurl.com/vinted365"><img src="media/vinted.png" alt=""></a>
+                <a href="" style="display: none;"><img src="media/allegro.png" alt=""></a>
+                <a href="https://tinyurl.com/sprawdziany365dsc"><img src="media/discord.png" alt=""></a>
+            </div>
+        </div>
+        <img src="media/x_mark.png" alt="delete" class="closeSummary closebut"/>
+    </div>
+
+    <div class="help">
+        <h2>Witaj na Sprawdziany365!</h2>
+        <p>Sprawdziany365 to miejsce stworzone z myślą o uczniach szkoły podstawowej oraz ich rodzicach, którzy chcą wspierać naukę i przygotowanie do ważnych sprawdzianów. Szeroki wybór naszych sprawdzianów i testów z różnych przedmiotów, skutecznie pozwala utrwalić wiedzę i efektywnie przygotować się do sprawdzianu</p>
+        <h3>Jak zakupić sprawdziany?</h3>
+        <p>Dostęp do testów nigdy nie był prostszy!</p>
+        <ol>
+            <li><b>Wybierz interesujące Cię materiały</b> - oferujemy pojedyncze kartkówki, zestawy do całych działów, jak i pełne pakiety ksiażek. Wszystkie interesujące Cię materiały znajdziesz na stronie głównej, lub w zakładce <i>spis książek</i>. Ze względu na bogatą ofertę, dodaliśmy opcję filtrów, aby ułatwić wyszukanie pożądanej książki.</li>
+            <li><b>Dodaj sprawdziany do koszyka</b> - ułatwi to późniejszą realizację zamówienia</li>
+            <li><b>Skontaktuj się ze sprzedająćym</b> - Skontaktuj się ze sprzedającym za pomocą najbardziej odpowiadającej drogi kontaktu - 
+                    <a href="">vinted</a>, <a href="">allegro</a> lub <a href="">discord</a>. W prywatnym czacie ze sprzdającym zrealizujesz zamówienie
+            </li>
+            <li>
+                <b>Omów szczegóły zamówienia</b> - Wyślij zrzut ekranu stworzonego koszyka lub napisz, jakimi książkami jesteś zainteresowany/-a. W razie niejasności lub wątpliwości, pytaj - odpowiemy na wszystkie pytania
+            </li>
+            <li>
+                <b>Dokonaj płatności</b> - Preferujemy płatności za pomocą BLIKa (przelew na numer telefonu) lub allegro - poprzez wystawienie indywidualnej oferty
+            </li>
+            <li>
+                <b>Pobierz swoje sprawdziany</b> - Po dokonaniu płatności prosimy o podanie adresu e-mail, na który wyślemy zamówione sprawdziany.
+            </li>
+        </ol>
+        <img src="media/x_mark.png" alt="delete" class="infox closebut"/>
+    </div>
+
+    <div class="contact">
+        <h2>Masz pytania? Skontaktuj się z nami!</h2>
+        <p>Cenimy sobie opinie naszych klientów, dlatego zawsze jesteśmy do Twojej dyspozycji. Zależy nam, aby proces zakupu sprawdzianów był dla Ciebie jak najprostszy. Niezależnie od treści Twojego pytania, zawsze jesteśmy do dyspozycji. Nasz zespół z przyjemnością odpowie na wszystkie Twoje pytania.</p>
+        <h3>Możesz skontaktować się z nami na kilka sposobów:</h3>
+        <div>
+            <a href="https://tinyurl.com/vinted365"><img src="media/vinted.png" alt=""></a>
+                <a href="" style="display: none;"><img src="media/allegro.png" alt=""></a>
+                <a href="https://tinyurl.com/sprawdziany365dsc"><img src="media/discord.png" alt=""></a>
+        </div>
+        <img src="media/x_mark.png" alt="delete" class="contactx closebut"/>
+    </div>
+
+    <div class="mask"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
